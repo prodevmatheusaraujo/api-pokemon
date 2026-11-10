@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9900;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 530px;
+  background-color: #e6efff;
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.imagem-box {
+  width: 135px;
+  height: 135px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.imagem-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#pokemon-nome {
+  font-size: 1.6rem;
+  color: #1e3a6e;
+}
+
+.badge {
+  background-color: #e74e12;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.info-box {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.info-titulo,
+.info-unidade {
+  font-size: 0.8rem;
+  color: #555555;
+}
+
+.info-valor {
+  font-size: 1.5rem;
+  color: #1e3a6e;
+}
